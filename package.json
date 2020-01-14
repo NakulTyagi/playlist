@@ -35,5 +35,10 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://nakultyagi.github.io/playlist/"
+  "homepage": "https://nakultyagi.github.io/playlist/",
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
 }
